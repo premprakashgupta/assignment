@@ -1,0 +1,87 @@
+.container {
+	display: block;
+	width: 100%;
+	height: 100vh;
+}
+
+.myId {
+	margin-right: 5rem;
+	border-radius: 5px;
+	background: #c9d6ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #e2e2e2, #c9d6ff); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#e2e2e2,
+		#c9d6ff
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 2rem;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+
+.call-button {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.video-container {
+	width: 100%;
+	height: 50%;
+	display: flex;
+}
+.video-container .video{
+	width: 50%;
+	height: 100%;
+}
+
+.caller {
+	text-align: center;
+	color: #fff;
+}
+.chatBox{
+	width: 100%;
+	height: 40%;
+	background-color: gainsboro;
+}
+.chatBox .content{
+	width: 100%;
+	height: 90%;
+	overflow: auto;
+}
+.chatBox .content ul{
+	width: 90%;
+	height: auto;
+	
+}
+.chatBox .content ul .msg{
+	width: 50%;
+	height: auto;
+	padding: 5px 10px;
+	background-color: white;
+	margin: 2px;
+	
+	
+}
+.chatBox .content ul .msg .username{
+	font-size: 10px;
+	
+}
+.chatBox .operations input{
+	width: 80%;
+	height: auto;
+	padding: 5px 10px;
+	
+	
+}
+
+body {
+	background: #4776e6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #8e54e9, #4776e6); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#8e54e9,
+		#4776e6
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
